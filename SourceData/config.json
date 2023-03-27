@@ -1,0 +1,17 @@
+{
+  "dataset":"foursquare_nyc",
+  "dataset_path": "nyc",
+  "min_session_len": 5,
+  "max_session_len": 50,
+  "min_sessions": 2,
+  "min_checkins": 5,
+  "window_size": 12,
+  "batch_size": 20,
+  "num_workers": 0,
+  "cache_dataset": true,
+  "train_rate": 0.7,
+  "eval_rate": 0.1,
+  "history_type": "splice",
+  "cut_method": "same_date",
+  "traj_encoder": "StandardTrajectoryEncoder"
+}
